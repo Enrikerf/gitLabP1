@@ -13,7 +13,7 @@ from fabric.api import warn_only
 
 environments = {
     'production': {
-        'hosts': 'root@167.99.57.122',
+        'hosts': 'root@47.63.113.91',
         'home': '/var/clase_6_pipeline',
         'docker_build_commands': [
             'docker-compose -f production.yml build --no-cache',
@@ -30,7 +30,7 @@ environments = {
         }
     },
     'stage': {
-        'hosts': 'root@167.99.57.122',
+        'hosts': 'root@47.63.113.91',
         'home': '/var/clase_6_pipeline',
         'docker_build_commands': [
             'docker-compose -f production.yml build --no-cache',
